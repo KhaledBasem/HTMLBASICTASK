@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="style.css" type="text/css" rel="stylesheet"/>
+        <script type="text/javascript">
+            function Toggle(value){
+            switch(value){
+            case 'General':
+            document.getElementById('General').style.display="block";
+            document.getElementById('Password').style.display="none";
+            document.getElementById('Info').style.display="none";
+            document.getElementById('Notification').style.display="none";
+            break;
+            case 'Password':
+            document.getElementById('General').style.display="none";
+            document.getElementById('Password').style.display=" block";
+            document.getElementById('Info').style.display="none";
+            document.getElementById('Notification').style.display="none";
+            
+            break;
+            case 'Info':
+            document.getElementById('General').style.display="none";
+            document.getElementById('Password').style.display="none";
+            document.getElementById('Info').style.display="block";
+            document.getElementById('Notification').style.display="none";
+break;
+case 'Notification':
+document.getElementById('General').style.display="none";
+document.getElementById('Password').style.display="none";
+document.getElementById('Info').style.display="none";
+document.getElementById('Notification').style.display="block";
+break;
+}
+}
+</script>
+
+    </head>
+    <body>
+
+        <h1 class="title">Account Setting</h1>
+        
+        <div class="Container">
+            <div class="Items"
+            style="float: left;">
+            
+                    <div class="ContentItems">
+
+                        <div class=".TypeText" onclick="Toggle('General')" >
+                        <span>General
+                        </span>
+                    </div>
+                    </div>
+                    <div class="ContentItems" onclick="Toggle('Password')"
+                    >
+                        <div class=".TypeText" 
+                        >
+                    <span>Change Password
+                    </span>
+                    </div>
+                    </div>
+                    <div class="ContentItems" onclick="Toggle('Info')">
+                    <div class=".TypeText" >
+                        <span>Info
+                        </span>
+                        </div>
+
+                    </div>
+                    <div class="ContentItems" onclick="Toggle('Notification')">
+                        <div class=".TypeText"> 
+                        <span>Notifications
+                        </span>
+
+                    </div>
+</div>
+</div>
+
+                    <div class="Informations" id="General"
+                    style="float: left;">
+
+                    <div class="Image"
+                    style="float: left;">
+                    
+                    <img src="thumbnail_avatar.png" width=80px
+                    height=76px/>
+                </div>
+
+                <div class="Uploud"
+                style="float: left;">
+
+                <div style="float: left;">
+
+                    <input type="file" id="upload" hidden/>
+                    <label for="upload">Uploud new photo</label>
+                </div>
+            
+            <div style="float: left;">
+            <div style="float: left;"
+            class="button">
+                <button type="button">Reset</button>
+            </div>
+        </div>
+            <div style="clear: left;">
+
+                <div class="Text1">
+
+                    <span>Allowed JPG,GIF or PNG , Max size of 800K</span>
+
+
+                </div>
+            </div>
+                </div>
+
+
+                <div style="clear: left;">
+                    <div class="Inputs"  >
+                        <span>UserName</span>                
+                    </div>
+
+                    <div class="Text2">
+                        <input type="text" placeholder="Enter UserName"/>
+                    </div>
+
+                </div>
+
+                <div>
+                    <div class="Inputs"  >
+                        <span>Name</span>                
+                    </div>
+
+                    <div class="Text2">
+                        <input type="text" placeholder="Enter your Name"/>
+                    </div>
+                    </div>
+
+                    <div>
+                        <div class="Inputs"  >
+                            <span>Email</span>                
+                        </div>
+    
+                        <div class="Text2">
+                            <input type="email" placeholder="Enter your Email"/>
+                        </div>
+                        </div>
+
+
+                        <div class="Resend">
+                            <div style="margin-top: 10px; font-size: smaller; flood-color: gray;" >
+                        <p>Your email is not confirmed. Please check your inbox.</p>
+
+<p><a href="">Resend Confirmation</a></p>
+
+                            </div>
+
+
+                        </div>
+
+                        <div>
+                            <div class="Inputs"  >
+                                <span>Company</span>                
+                            </div>
+        
+                            <div class="Text2">
+                                <input type="text" placeholder="Enter your company name"/>
+                            </div>
+
+                            </div>
+
+                            <div class="any">
+
+                                <div style="float: left;">
+                    
+                                    <button class="submit">Save Changes</button>
+                            </div>
+                            
+            
+                                <div>
+                            
+                                    <button class="Cancel">Cancel</button>
+                            </div>
+                            </div>
+
+                             
+                </div>
+
+
+                <div>
+
+
+                <div class="current">
+
+                <div style="display: none;" id="Password">
+
+                    <div>
+                        <div class="Inputs" >
+                            <span>Current Password</span>                
+                        </div>
+    
+                        <div>
+                            <input type="password"/>
+                        </div>
+                        </div>
+    
+                        <div>
+                            <div class="Inputs">
+                                <span>New Password</span>                
+                            </div>
+        
+                            <div>
+                                <input type="password"/>
+                            </div>
+                            </div>
+
+                            <div>
+                                <div class="Inputs"  >
+                                    <span>Repeat New password</span>                
+                                </div>
+            
+                                <div>
+                                    <input type="password"/>
+                                </div>
+                                </div>
+
+
+                                <div class="any">
+
+                                    <div style="float: left;">
+                    
+                                        <button class="submit">Save Changes</button>
+                                </div>
+                                
+                
+                                    <div>
+                                
+                                        <button class="Cancel">Cancel</button>
+                                </div>
+
+                                </div>
+    
+                        </div>
+
+
+
+                    </div>
+
+
+
+
+                </div>
+
+                <div>
+
+                    <div class="current">
+
+                <div style="display: none;" id="Info">
+
+
+                    <div>
+                        <div class="Inputs"  >
+                            <span>Bio</span>                
+                        </div>
+    
+                        <div>
+                            <input type="text1"/>
+                        </div>
+                        </div>
+
+                        <div>
+                            <div class="Inputs"  >
+                                <span>Birthday</span>                
+                            </div>
+        
+                            <div>
+                                <input type="date"/>
+                            </div>
+                            </div>
+
+                            <div class="Inputs"  >
+                                <span>Country</span>                
+                            </div>
+                            <select  name="country" id=select>
+                                <option value="United States of America">United States of America</option>
+                            </select>
+
+                            <div>
+                                <div>
+                                    <h3>Contacts</h3>                
+                                </div>
+
+
+                                <div>
+                                    <div class="Inputs"  >
+                                        <span>Phone</span>                
+                                    </div>
+
+                                
+                                    <div>
+                                        <input type="phone"/>
+                                    </div>
+
+                                </div>
+
+                                <div>
+                                    <div class="Inputs"  >
+                                        <span>Website</span>                
+                                    </div>
+
+                                
+                                    <div>
+                                        <input type="phone"/>
+                                    </div>
+
+                                </div>
+
+
+
+                            </div>
+
+                            <div class="any">
+
+                                <div style="float: left;">
+                
+                                    <button class="submit">Save Changes</button>
+                            </div>
+                            
+            
+                                <div>
+                            
+                                    <button class="Cancel">Cancel</button>
+                            </div>
+
+                            </div>
+
+                        </div>
+
+
+                </div>
+                </div>
+
+                <div class="current">
+                
+                <div style="display: none;" id="Notification">
+
+                    <div class="Activity">
+
+                    <h3>Activity</h3>
+
+                    <div >
+
+                    <input type="checkbox">
+                    <span>Email me when someone comments on my article</span>
+
+                    </div>
+
+                    <div class="check1">
+
+                        <input type="checkbox">
+                        <span>Email me when someone answers on my forum thread</span>
+    
+                        </div>
+
+                        <div class="check1">
+
+                            <input type="checkbox">
+                            <span>Email me when someone follows me</span>
+        
+                            </div>
+                            </div>
+
+                            
+
+
+                            <div class="Application">
+
+                                <div>
+                                    <h3>Application</h3>
+                                </div>
+
+
+
+                                <div class="check1"> 
+
+                                    <input type="checkbox">
+                                    <span>News and announcements</span>
+                
+                                    </div>
+
+
+                                    <div class="check1">
+
+                                        <input type="checkbox">
+                                        <span>Weekly product updates</span>
+                    
+                                        </div>
+
+                                        <div class="check1">
+
+                                            <input type="checkbox">
+                                            <span>Weekly blog digest</span>
+                        
+                                            </div>
+
+                            </div>
+                                <div class="save">
+                
+                                    <button class="submit">Save Changes</button>
+                            </div>
+
+
+
+                    
+                </div>
+                </div>
+
+        
+    </body>
+</html>

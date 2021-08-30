@@ -1,0 +1,267 @@
+body{
+    background-color: #EEEEEE;
+    margin-top:20px;
+}
+
+.title{
+    margin-left: 90px;
+}
+.Container{
+    margin-top: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-style: solid;
+    background-color: white;
+    padding-bottom: 200px;
+    width: 1000px;
+    height: 500px;
+}
+
+
+.Items{
+    margin-top: 10px;
+    Border-bottom:#E6ECF3;
+    color: rgb(212, 201, 201);
+    font-size:large;
+}
+.TypeText{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+.ContentItems{
+    padding: 30px 1px 14px 25px;
+    border-bottom: 1px solid #E6ECF3;
+}
+.ContentItems:hover{
+    background-color: #F0F0F0;
+}
+
+.Informations{
+    margin-top: 10px;
+    margin-left: 30px;
+    width: 400px;
+}
+
+.Image{
+margin-top: 10px;
+}
+
+
+.Uploud{
+    margin-left: 20px;
+
+}
+
+label{
+    display: inline-block;
+    background-color: #428bca;
+    color: #ffffff;
+    padding: 0.5rem;
+    font-family: sans-serif;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+
+  button{
+    display: inline-block;
+    padding: 0.5rem;
+    font-family: sans-serif;
+    margin-top: 20px;
+    margin-left: 20px;
+    color: #ffffff; 
+    border-radius: 4px;
+    background-color: #d9534f;
+    border-color: #d43f3a;
+    
+  }
+
+.Text1{
+    color: rgba(48, 45, 45, 0.801);
+margin-left: 20px;
+font-size: 0.750em;
+padding-top: 10px;
+}
+
+.Inputs{
+    padding-top: 10px;
+    margin-left: 10px;
+}
+
+input[type=text]{
+    width:200%;
+    border: 1px solid #cccccc;
+    border-radius:4px;
+    margin:8px 0;
+    outline:none;
+    padding:8px;
+    box-sizing:border-box;
+    transition:.3s;
+    color: #555555;
+}
+input[type=text]:focus{
+    border-color:#66afe9;
+    box-shadow:0 0 8px 0 dodgerBlue;
+  }
+
+
+  input[type=email]{
+    width:200%;
+    border: 1px solid #cccccc;
+    border-radius:4px;
+    margin:8px 0;
+    outline:none;
+    padding:8px;
+    box-sizing:border-box;
+    transition:.3s;
+    color: #555555;
+}
+input[type=email]:focus{
+    border-color:#66afe9;
+    box-shadow:0 0 8px 0 dodgerBlue;
+  }
+
+  .Resend{
+      margin-top: 20px;
+    background-color: #fff3cd;
+    border-color: #ffeeba;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    display: block;
+    height: 70px;
+    width: 200%;
+  }
+
+  .submit{ 
+    width: max-content;
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+    font-weight: 400;
+    padding: 0.375rem .75rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: -50px;
+  
+
+  }
+  .Cancel{
+    color: #333333;
+    background-color: #ffffff;
+    border-color: #cccccc;
+   
+  }
+
+  .any{
+    margin-left: 617px;
+  }
+
+  .submit:hover {
+    background-color: #3276b1;
+    border-color: #285e8e;
+  }
+
+  #Password{
+    margin-top: 20px;
+    margin-left: 29px;
+
+  }
+
+  #Info{
+      margin-top: 20px;
+
+}
+
+#Notification{
+    margin-top: 20px;
+
+}
+
+input[type=password]{
+    width: 76%;
+    border: 1px solid #cccccc;
+    border-radius:4px;
+    margin:8px 0;
+    outline:none;
+    padding:8px;
+    box-sizing:border-box;
+    transition:.3s;
+    color: #555555;
+
+}
+
+.current{
+    margin-left: 176px;
+    width: 100%;
+}
+input[type=text1]{
+    width: 76%;
+    border: 1px solid #cccccc;
+    border-radius:4px;
+    margin:8px 0;
+    outline:none;
+    padding:8px;
+    box-sizing:border-box;
+    transition:.3s;
+    color: #555555;
+}
+
+input[type=date]{
+    width: 76%;
+    border: 1px solid #cccccc;
+    border-radius:4px;
+    margin:8px 0;
+    outline:none;
+    padding:8px;
+    box-sizing:border-box;
+    transition:.3s;
+    color: #555555;
+}
+#select{
+    width: 76%;
+    border: 1px solid #cccccc;
+    border-radius:4px;
+    margin:8px 0;
+    outline:none;
+    padding:8px;
+    box-sizing:border-box;
+    transition:.3s;
+    color: #555555;
+}
+input[type=phone]{
+    width: 76%;
+    border: 1px solid #cccccc;
+    border-radius:4px;
+    margin:8px 0;
+    outline:none;
+    padding:8px;
+    box-sizing:border-box;
+    transition:.3s;
+    color: #555555;
+}
+
+
+.Activity{
+    margin-top: 40px;
+}
+.Application{
+    margin-top: 60px;
+}
+.check1{
+    margin-top: 10px;
+}
+.save{
+    margin-left: 459px;
+}
+
+
+
