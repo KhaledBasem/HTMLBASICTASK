@@ -136,6 +136,13 @@ input[type=email]:focus{
     width: 200%;
   }
 
+  .r2{
+    margin-top: 10px;
+     font-size: smaller;
+      flood-color: gray;
+       padding-left: 12px;
+  }
+
   .submit{ 
     width: max-content;
     color: #fff;
@@ -155,6 +162,8 @@ input[type=email]:focus{
 
   }
   .Cancel{
+    margin-left: 8px;
+    height: 34px;
     color: #333333;
     background-color: #ffffff;
     border-color: #cccccc;
@@ -164,6 +173,14 @@ input[type=email]:focus{
   .any{
     margin-left: 617px;
   }
+
+  .edit{
+      margin-left: -30px;
+  }
+
+  .edit2{
+    margin-left: -10px;
+}
 
   .submit:hover {
     background-color: #3276b1;
